@@ -1,6 +1,7 @@
 body{
     background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
     margin: 20%;
+    margin-top:1%;
 }
 
 /* H1 title 
@@ -22,6 +23,7 @@ img{
 #caption{
     font-size: 17px;
     font-family: inherit;
+    font-style: italic;
 }
 
 #tribute-data{
@@ -32,3 +34,12 @@ img{
             margin: 11px;
             margin-top: 50px;
 }
+ul{
+    background:linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+
+}
+li{
+    background:linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    font-weight:medium;
+}
+  
