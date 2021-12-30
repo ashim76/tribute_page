@@ -16,17 +16,21 @@
 </head>
 
 <body>
+
+        <!--Image of Tributed Person-->
 <main id="main">
     <h1 id="title">Late King Birendra     
     </h1>
 
 
-    <div id="img">
-        <!--Image of Tributed Person-->
+    <div id="img-div">
+         <figurecation id="img-caption">King Birendra</figurecaption>
         <img src="img/king.jpg" id="image" alt="king birendra">
+    
         <small id="caption">
+         
             Birendra Bir Bikram Shah Dev, (born December 28, 1945, Kathmandu, Nepal—died June 1, 2001, Kathmandu), king of Nepal from 1972 to 2001, 10th in the line of monarchs in the Shah Dev family.
-            <a href="https://en.wikipedia.org/wiki/Birendra_of_Nepal">More about King Birendra</a>
+            <a id="tribute-link" target="_blank" href="https://biography.yourdictionary.com/king-birendra">More about King Birendra</a>
         </small>
         
     </div>
@@ -34,7 +38,8 @@
         <!--About King Birendra-->
         <h1 class="title-KING">About King Birendra</h1>
     </div>
-    <p class="lead" id="tribute-info">
+    <p class="lead">
+      <article id="tribute-info">
         <ul class="lsit-group">
             <li class="list-group-item">
                 <span class="badge badge-primary badge-pill">1</span>Birendra was born at the Narayanhiti Royal Palace in Kathmandu as the eldest son of the then Crown Prince Mahendra Bir Bikram Shah Dev and his first wife, Crown Princess Indra Rajya Lakshmi Devi
@@ -71,6 +76,8 @@
         </li>
     </ul>
 <br>
+        </p>
+  </article>
 <p class="lead" id="tribute-link">
     For more information, Please visit <a href="https://en.wikipedia.org/wiki/Birendra_of_Nepal">King Birendra</a> on Wiki.
 </p>
@@ -92,6 +99,9 @@
             //Get the current year for copyright 
             #('year').text(new Date().getFullYear());
         </script>
+        <footer>
+            &copy; ASHIM POUDEL
+        </footer>
 </body>
 
 </html>
